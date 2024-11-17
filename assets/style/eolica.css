@@ -42,6 +42,21 @@ html {
     justify-content: flex-start;
 
 }
+.fontes{
+    display: inline-block;
+    width: 411px;
+    height: 265px;
+    padding: 55px 21px 36px 21px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    margin-bottom: 8%;
+    
+    }
+.fontes p {
+    color: #ffff;
+}
 .banner {
     width: 100%;
 }
@@ -71,49 +86,27 @@ html {
     color: #59B146;
     text-align: left;
     font-family: "Inter";
-    font-size: 30px;
+    font-size: 55px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
 }
-.btn-verde a {
-    color: #fff;
+
+
+.quem-somos img{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+   
 }
+
+
+
 .quem-somos img{
     margin-left: 95px;
     margin-right: 50px;
 }
-
-.btn-verde a {
-    font-family: "Montserrat";
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-decoration: none;
-    
-}
-
-.btn-verde {
-    background-color: #59B146; 
-    color: white; 
-    border: none; 
-    padding: 15px 30px; /* Aumenta o espaçamento interno */
-    font-size: 20px; /* Aumenta o tamanho do texto */
-    border-radius: 8px; /* Bordas arredondadas */
-    cursor: pointer; /* Altera o cursor para indicar clicável */
-    margin-top: 45px;
-}
-
-btn-verde a {
-    color: #fff;
-}
-.quem-somos img{
-    margin-left: 95px;
-    margin-right: 50px;
-}
-
 
 
 .quem-somos h2 {
@@ -136,7 +129,7 @@ btn-verde a {
     margin-bottom: 40px;
     color: #353539;
     font-family: Inter;
-    font-size: 25px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
