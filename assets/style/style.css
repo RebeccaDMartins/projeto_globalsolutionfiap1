@@ -120,7 +120,7 @@ body {
     color: #59B146;
     text-align: center;
     font-family: "Inter";
-    font-size: 30px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -131,7 +131,7 @@ body {
     margin-bottom: 20px;
     color: #353539;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -213,11 +213,13 @@ body {
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
+    align-items: center;
 }
 
 .sustentavel h1 {
     padding-bottom: 30px;
     color: #59B146;
+    text-transform: uppercase;
 }
 
 .texto-sustentavel {
@@ -227,15 +229,11 @@ body {
     margin-right: 10px;
 }
 
-.texto-sustentavel img {
-    width: 100%;
-}
-
 .texto-sustentavel p {
     margin-bottom: 20px;
     color: #353539;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -265,7 +263,7 @@ body {
     margin-bottom: 20px;
     color: #fff;
     font-family: Inter;
-    font-size: 14px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -282,7 +280,7 @@ body {
     color: #59B146;
     text-align: center;
     font-family: "Inter";
-    font-size: 30px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -321,14 +319,23 @@ body {
 
 .texto-incentivo1 {
     padding-bottom: 30px;
+    font-size: 18px;
 }
 
 .texto-incentivo2 {
     padding-bottom: 10px;
+    font-size: 18px;
 }
 
 .texto-incentivo3 {
     padding-bottom: 30px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.texto-incentivo ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 
 .footer-container {
