@@ -97,6 +97,15 @@ body {
     gap: 78px;
 }
 
+.container-nav ul li a {
+    text-decoration: none;
+}
+
+.container-nav ul li a:hover {
+    color: #59B146;
+    text-decoration: underline;
+}
+
 .container-ul {
     list-style-type: none;
     display: inline-flex;
@@ -131,7 +140,6 @@ body {
 .energias {
     display: flex;
     flex-wrap: wrap;
-    /* Permite quebra de linha */
     gap: 20px;
     /* Espaçamento entre os cards */
     justify-content: center;
@@ -182,7 +190,7 @@ body {
 }
 
 .energias div button:hover {
-    background-color: rgb(46, 114, 31);
+    background-color: rgb(31, 78, 21);
     /* Tom mais escuro no hover */
 }
 
@@ -323,7 +331,6 @@ body {
     padding-bottom: 30px;
 }
 
-
 .footer-container {
     display: flex;
     justify-content: center;
@@ -334,13 +341,6 @@ body {
     background-color: #353539;
 }
 
-/* .infos-footer {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    color: #fff;
-} */
 
 .sociais {
     display: flex;
@@ -383,13 +383,23 @@ body {
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
+    text-decoration: none;
     line-height: normal;
     margin: 5px 0;
     color: #fff;
 }
 
+.links-recursos ul li a:hover {
+    color: #59B146;
+    text-decoration: underline;
+}
+
 .links-endereco {
     color: #FFF;
+}
+
+.links-endereco:hover {
+    color: #59B146;
 }
 
 .logo-footer {
@@ -418,10 +428,9 @@ body {
         /* 2 colunas em telas médias */
     }
     .texto-sustentavel img {
-        width: 100%; /* A imagem ocupa 100% da largura do contêiner */
-        height: auto; /* Mantém a proporção da imagem */
-        max-width: 100%; /* Impede que a imagem fique maior do que o contêiner */
-    }
+        width: 100%; 
+        height: auto; 
+        max-width: 100%; 
     .texto-sustentavel {
         flex-direction: column;
     }
@@ -432,4 +441,5 @@ body {
         flex: 1 1 100%;
         /* 1 coluna em telas pequenas */
     }
+}
 }

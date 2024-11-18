@@ -59,6 +59,15 @@ body {
     gap: 78px;
 }
 
+.container-nav ul li a {
+    text-decoration: none;
+}
+
+.container-nav ul li a:hover {
+    color: #59B146;
+    text-decoration: underline;
+}
+
 .container-ul {
     list-style-type: none;
     display: inline-flex;
@@ -156,12 +165,22 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-decoration: none;
     margin: 5px 0;
     color: #fff;
 }
 
+.links-recursos ul li a:hover {
+    color: #59B146;
+    text-decoration: underline;
+}
+
 .links-endereco {
     color: #FFF;
+}
+
+.links-endereco:hover {
+    color: #59B146;
 }
 
 .logo-footer {
